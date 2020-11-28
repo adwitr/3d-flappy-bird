@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
 
     public void levelComplete()
     {
+        uiblock.SetActive(true);
         Debug.Log("Completed Level");
     }
 
